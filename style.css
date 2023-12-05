@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #D80032, #662549);
+}
+.task-box{
+    width: 40%;
+    margin: auto;
+    padding-top: 120px;   
+}
+h1 {
+    display: none;
+}
+.textb{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+}
+.textb:focus{
+    outline: none;
+}
+.textb::placeholder{
+    font-size: 16px;
+    color: rgb(50, 52, 52);
+}
+.noncomp{
+    margin-top: 42px;
+}
+.noncomp h2{
+    margin: 10px 0;
+    color: #FFF9C9;
+}
+.comp h2{
+    color: #FFF9C9;
+}
+.task{
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    margin: 8px 0;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.task i{
+    float: right;
+    margin: 0px 4px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.fa-trash{
+    color: red;
+}
+.fa-check{
+    color: green;
+}
+.comp{
+    margin-top: 20px;
+}
+
+/* Responsive Design Code */
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+
+    .task-box{
+        width: 80%;
+        margin: auto;
+        padding-top: 220px;   
+    }
+    .textb {
+        width: 100%;     
+    }
+    .textb:hover{
+         box-shadow:  0 4px 8px 0 rgba(212, 211, 211, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: block;
+        text-align: center;
+        background: linear-gradient(to left, #f04a13, #452f2f);
+        margin-bottom: -4px;
+        padding: 10px 10px;
+        color: #FFF9C9;
+        box-shadow:  0 4px 8px 0 rgba(212, 211, 211, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 4px;
+    }
+    h1 span{
+        color: #F4E869;
+    }
+  }
